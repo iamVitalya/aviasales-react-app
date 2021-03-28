@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/OpenSans-SemiBold.ttf');
+}
+
+body {
+  min-width: 360px;
+  font-family: 'Open sans';
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}

@@ -1,0 +1,1 @@
+Aviasales App [Открыть сайт](https://aviasales-app-sigma.vercel.app/).

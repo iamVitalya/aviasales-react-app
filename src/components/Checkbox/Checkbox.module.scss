@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  padding: 10px 20px 10px 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #F1FCFF;
+  }
+}
+
+.input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.mark {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -30px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../images/checkbox/checkbox.svg');
+  background-size: cover;
+}
+
+.input:checked + .mark {
+  background-image: url('../../images/checkbox/checkbox-checked.svg');
+}

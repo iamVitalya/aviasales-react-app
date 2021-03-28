@@ -1,0 +1,59 @@
+.content-wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #F3F7FA;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  @media (min-width: 768px) {
+    padding: 50px 0;
+  }
+}
+
+.content {
+  position: relative;
+  padding: 0 10px 20px;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    padding-bottom: 120px;
+  }
+}
+
+.logo {
+  filter: drop-shadow(0px 1px 11px rgba(55, 104, 142, 0.3)) drop-shadow(0px 8px 11px rgba(55, 104, 142, 0.25));
+}
+
+.sidebar {
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    width: 252px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.main {
+  @media (min-width: 768px) {
+    margin-left: 272px;
+  }
+}
+
+.sorter {
+  margin-bottom: 20px;
+}
+
+
+
+
